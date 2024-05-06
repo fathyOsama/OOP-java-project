@@ -15,13 +15,26 @@ public class MyFirstOOpProject {
      */
     public static void main(String[] args) {
         
+        
+       Employee2 Em=new SalariedEmployee("FATHEY",21.0,"Zagazg","ceiro",3000,"mangment","Engineer",500,100);
+       
+       //  Employee2 Em=new Employee2();
+        Em.print_All_Datalis();
+         // se1.setSalary(3000);
+        //System.out.println(se1.getSalary());
+        
+//       Student std1=new Student("FATHEY", 20.0,"Zagazg", "Ceiro",5 , "Is", 4.85);
+//       System.out.println(std1.getName());
+//       System.out.println(std1.getNotionaliy());
+
+       /* 
         Rectangle room3=new Rectangle();
         Rectangle MyInputObject=new Rectangle(10,30);
         
         room3.ModifyObject(MyInputObject);
         System.out.println(MyInputObject.getLength());
         System.out.println(MyInputObject.getWidth());
-        
+        */
         
        /* 
         Rectangle r1=new Rectangle();
